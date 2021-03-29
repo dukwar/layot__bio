@@ -1,0 +1,104 @@
+@import "../../helpersSCSS/Container";
+@import "../../helpersSCSS/vars";
+
+
+.works {
+  margin: 2.8rem 0;
+
+  .works__nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+
+
+    .works__nav-link {
+      margin: 0 1.2rem;
+      font-size: .8rem;
+      color: rgba($black, .7);
+      text-decoration: none;
+
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0 -1rem 2.8rem;
+
+  .portfolio__col {
+
+    width: 33.3333%;
+
+    padding: 1rem;
+
+
+    .work {
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 4px rgba(#000, .3);
+      transition: box-shadow .2s linear;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 0 0 25px rgba(#000, .3);
+      }
+
+      .work__image {
+        width: 100%;
+        height: auto;
+      }
+
+      .work__content {
+        padding: 1rem 0.8rem;
+      }
+
+      .work__cat {
+        margin-bottom: 0.5rem;
+        font-size: .8rem;
+        color: $black;
+        text-transform: uppercase;
+
+      }
+
+      .work__title {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.06rem;
+        color: $black;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

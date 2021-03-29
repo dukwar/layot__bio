@@ -1,0 +1,65 @@
+@import "../../helpersSCSS/Container";
+@import "../../helpersSCSS/vars";
+@import "../../helpersSCSS/btn";
+
+
+.intro {
+
+
+  .intro__inner {
+    background: url("../../img/intro__photo/symbols.jpg") right top no-repeat;
+    position: relative;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba($gray, .3);
+    margin-top: 110px;
+    padding-bottom: 120px;
+
+
+    .intro__content {
+      width: 50%;
+
+
+      .intro__subtitle {
+        font-size: 2.13rem;
+        color: $black;
+        font-weight: 200;
+      }
+
+      .intro__title {
+        margin-bottom: 5px;
+        font-size: 3rem;
+        color: $black;
+        font-weight: 700;
+      }
+
+      .intro__text {
+        font-size: 1.2rem;
+        color: rgba($black, .7);
+      }
+    }
+
+    .intro__photo {
+      width: 50%;
+
+
+      & img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        min-width: 400px;
+        height: auto;
+      }
+
+    }
+
+    @extend .container
+  }
+
+}
+
+
+
+
+

@@ -1,0 +1,28 @@
+@import "../../helpersSCSS/Container";
+@import "~bootstrap/scss/bootstrap";
+
+
+.reviews {
+  background-color: #3a3e64;
+  overflow: hidden;
+  min-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 10px;
+  }
+  .reviews {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 5px;
+  }
+  .reviews {
+    font-size: 5px;
+  }
+}
